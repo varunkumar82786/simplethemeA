@@ -1,0 +1,44 @@
+
+name = SimpleThemeA
+description = A flexible, recolorable theme with many regions.
+package = Core
+version = VERSION
+core = 7.x
+
+stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/colors.css
+stylesheets[print][] = css/print.css
+
+regions[header] = Header
+;regions[help] = Help
+;regions[page_top] = Page top
+;regions[page_bottom] = Page bottom
+;regions[highlighted] = Highlighted
+
+;regions[featured] = Featured
+regions[content] = Content Region 1
+regions[content2] = Content Region 2
+regions[content3] = Content Region 3
+regions[content4] = Content Region 4
+regions[announcement] = Announcement Region
+regions[list_items] = List Items Region
+
+;regions[triptych_first] = Triptych first
+;regions[triptych_middle] = Triptych middle
+;regions[triptych_last] = Triptych last
+
+;regions[footer_firstcolumn] = Footer first column
+;regions[footer_secondcolumn] = Footer second column
+;regions[footer_thirdcolumn] = Footer third column
+;regions[footer_fourthcolumn] = Footer fourth column
+regions[footer] = Footer
+
+settings[shortcut_module_link] = 0
+
+
+; Information added by Drupal.org packaging script on 2015-10-21
+version = "7.41"
+project = "drupal"
+datestamp = "1445457729"
+
